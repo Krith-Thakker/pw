@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pw</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="navbar">
+        <img id="img1" src="https://images.mid-day.com/images/images/2022/nov/PW_d.jpg">
+        <button id="btn1">
+            All Courses<i class="fa-solid fa-angle-down"></i>
+        </button>
+        <ul>
+            <li class="anm1">Vidyapeeth</li>
+            <li class="anm1">Upskilling-job Assistance</li>
+            <li class =anm1>PW Store(books)</li>
+        </ul>
+        <button id="btn2">
+            LOGIN
+        </button>
+    </div>
+    <div id="container" >
+       
+    </div>
+    <div id="content1">
+        <div id="newdiv">
+       <h1> Bharat's <span id="highlight1">Biggest &<br> Most Trusted<br></span> Educational Platform</h1>
+       <p>Unlock your potential by signing up with Physics Wallah.
+        <br>The most affordable learning solution</p>
+        <button id="btn3">
+            Get Started
+        </button>
+        </div>
+        <img id="alakh" src="https://th.bing.com/th/id/OIP.DQpkekGeZkukTo9CrW9RbgAAAA?rs=1&pid=ImgDetMain">
+        <div id="copydiv">
+            PW is India's leading Edtech
+
+Company that is democratizing
+
+education at Scale.
+        </div>
+    </div>
+    <div id="allExams">
+        <h1 id="mainHead1">
+            Exam Categories
+        </h1>
+       <div id="simplediv1"> 
+        <div id="indiv1"><h1 class="flexclass" >IIT-JEE</h1>
+            <button class="mybtn1">class 11</button>
+            <button class="mybtn2">class 12</button>
+            <button class="mybtn3">Dropper</button>
+            <button class="mybtn4">More</button>
+        </div>
+        <div id="indiv2"><h1 class="flexclass">NEET</h1>
+            <button class="mybtn1">class 11</button>
+            <button class="mybtn2">class 12</button>
+            <button class="mybtn3">Dropper</button>
+            <button class="mybtn4">More</button>
+        </div>
+    
+        <div id="indiv3"><h1 class="flexclass">School</h1>
+            <button class="mybtn1">class 11</button>
+            <button class="mybtn2">class 12</button>
+            <button class="mybtn4">More</button>
+        </div>
+        <div id="indiv4"><h1 class="flexclass">Commerce</h1>
+            <button class="mybtn1">class 11</button>
+            <button class="mybtn2">class 12</button>
+            <button class="mybtn4">More</button>
+        </div>
+    </div>
+    </div>
+    <div id="videodiv">
+        <video  autoplay loop muted src="https://youtu.be/-R1WXN9C51s?si=ZbDR1Ku3cCwieiK-" type="video/mp4">
+
+        </video>
+    </div>
+</body>
+</html>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    html, body {
+        height: 100%;
+        width: 100%;
+      
+    }
+#navbar{
+     display:flex;
+    height:100px;
+    width:100%;
+    border:1px solid black;
+
+}
+#img1{
+    position:absolute;
+    left:5%;
+    height:90px;
+    width:180px;
+cursor:not-allowed;
+}
+#btn1{
+    font-size: 18px;
+    font-weight: 550;
+    font-family: sans-serif;
+    position:absolute; 
+     border-radius: 7%;
+    left:20%;
+    top:15px;
+    height:60px;
+    width:160px;
+    background-color:transparent;
+    color:#594bdac7;
+    border:2px solid #594bdac7;
+    cursor:pointer;
+}
+#btn1:hover{
+    color:white;
+    background-color: #3c2dc5c7;
+}
+ul{
+    list-style: none;
+     display:flex;
+    justify-content:space-evenly; 
+}
+li{
+    font-family: sans-serif;
+    font-weight: 600;
+    position: relative;
+    left:95%;
+    top:5px; 
+     padding:30px 0px 0px 30px;
+     cursor:pointer;
+    
+}
+.anm1:hover{
+    text-decoration: underline ;
+    color:#510087;
+}
+#btn2{
+    position:absolute;
+    top:20px;
+    left:75%;
+    height:60px;
+    width:180px;
+    border:2px solid #594bdac7;
+    border-radius:7%;
+    font-family:sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    color:white;
+    background-color:#3c2dc5c7;
+    cursor:pointer;
+}
+#btn2:hover{
+    background-color: white;
+    color:#594bdac7;
+    border:2px solid #594bdac7;
+}
+#container{
+    height:300px;
+    width:100%;
+    /* border:solid 1px red; */
+    background-image: url(https://i.ytimg.com/vi/RNk-S2gF7pg/maxresdefault.jpg);
+    background-size:cover;
+    background-position: bottom;
+}
+#content1{
+    padding:5% 0px 0px 10%;
+    height:400px;
+    width:100%;
+    background-color: rgb(202, 205, 235);
+    /* border:solid 1px red; */
+    line-height: 1.5;
+}
+#highlight1{
+   animation:3s linear forwards;
+color:#1f0cc6c7;
+}
+p{
+    margin-top:15px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+#btn3{
+    margin-top:30px;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    height: 50px;
+    width:200px;
+    color:white;
+    background-color:#240fdee0;
+    border-radius: 6%;
+    cursor:pointer;
+}
+#btn3:hover{
+    background-color: white;
+    color:#240fdee0;
+}
+#content1{
+    display: flex;
+
+}
+#alakh{
+    border-radius:80%;
+    margin-left:15%;
+    margin-bottom:50px;
+}
+#copydiv{
+    padding-left: 15px;
+    padding-top:20px;
+    background-color:#1f0cc6f6;
+    color:white;
+    height: 100px;
+    width:300px;
+    border-radius:10%;
+    position: absolute;
+    margin:0px 0px 0px 1000px;
+}
+#copydiv:hover{
+    background-color: white;
+    color:#1f0cc6f6;
+}
+#mainHead1{
+    display: flex;
+    justify-content: center;
+    margin:10px 0px 0px 0px;
+    text-decoration:underline;
+    color:#3c2dc5c7;
+}
+#indiv1{
+    height:200px;
+    width:300px;
+   
+    /* box-shadow: 0.2 0.2 0.2 rgb(0.3, 0.3, 0.3); */
+    box-shadow: 10px 10px 5px grey, -5px -5px 10px lightgrey;
+    position:absolute;
+    left:5%;
+}
+#indiv2{
+    height:200px;
+    width:300px;
+   
+    box-shadow: 10px 10px 5px grey, -5px -5px 10px lightgrey;
+    position:absolute;
+    left:28%;
+}
+#indiv3{
+    height:200px;
+    width:300px;
+ 
+    box-shadow: 10px 10px 5px grey, -5px -5px 10px lightgrey;
+    position:absolute;
+    left:52%;
+}
+#indiv4{
+    height:200px;
+    width:300px;
+  
+    box-shadow: 10px 10px 5px grey, -5px -5px 10px lightgrey;
+    position:absolute;
+    left:75%;
+}
+#simplediv1{
+
+    display: flex;
+    /* border:1px green solid; */
+    margin:40px 0px 0px 0px ;
+}
+.mybtn1{
+    height:30px;
+    width:70px;
+    position:absolute;
+    left:10%;
+    top:30%;
+    color:#3c2dc5c7;
+    border:2px solid #3c2dc5c7;
+}
+.mybtn1:hover{
+    background-color: #3c2dc5c7;
+    color:white;
+    border-radius:20%;
+    border:1px solid white;
+}
+.mybtn2{
+    height:30px;
+    width:70px;
+    position:absolute;
+    left:40%;
+    top:30%;
+    color:#3c2dc5c7;
+    border:2px solid #3c2dc5c7;
+}
+.mybtn2:hover{
+    background-color: #3c2dc5c7;
+    color:white;
+    border-radius:20%;
+    border:1px solid white;
+}
+.mybtn3{
+    height:30px;
+    width:70px;
+    position:absolute;
+    left:70%;
+    top:30%;
+    color:#3c2dc5c7;
+    border:2px solid #3c2dc5c7;
+}
+.mybtn3:hover{
+    background-color:#3c2dc5c7 ;
+    color:white;
+    border-radius:20%;
+    border:1px solid white;
+}
+.mybtn4{
+    height:50px;
+    width:150px;
+    position:absolute;
+    top:60%;
+    left:25%;
+    border-radius:10%;
+    color:#3c2dc5c7;
+    border:2px solid #3c2dc5c7;
+}
+.mybtn4:hover{
+    background-color: #3c2dc5c7;
+    color:white;
+    border-radius:10%;
+    border:1px solid white;
+}
+.flexclass{
+    display: flex;
+    justify-content: center;
+    color:#3c2dc5c7;
+} 
+
+</style>
